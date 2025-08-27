@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vangala Vinay Kumar - Portfolio</title>
+    <link rel="icon" type="image/png" href="LOGO.png">
+    <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><img src="LOGO.png" alt="Logo"></div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Vangala Vinay Kumar</h1>
+            <p class="hero-subtitle">Full Stack Developer & Cloud Enthusiast</p>
+            <p class="hero-description">Passionate about building innovative solutions with modern technologies</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-card">
+                <img src="ProfilePic.png" alt="Vangala Vinay Kumar" class="profile-pic">
+                <div class="floating-badges">
+                    <div class="badge"><img src="Oracle Data Science_BADGE_OCI25DSOCP.jpg" alt="Badge 1"></div>
+                    <div class="badge"><img src="AWS CloudQuest_CloudPractitioner.png" alt="Badge 2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Motivated with a strong interest in applying my technical skills to real-world challenges. I enjoy learning by doing and am excited to be part of a team where I can contribute meaningfully, continue growing, and gain hands-on experience by working on practical solutions and innovative projects.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-label">Email:</span>
+                            <span>vinaykumarvangala05@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone:</span>
+                            <span>8121007035</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location:</span>
+                            <span>Hyderabad, India</span>
+                        </div>
+                    </div>
+                    <div class="resume-buttons">
+                        <button onclick="viewResume()" class="btn btn-resume">View Resume</button>
+                        <a href="VANGALA_VINAY_KUMAR.pdf" download class="btn btn-download">Download Resume</a>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>BTech - Sreenidhi Institute of Science and Technology</h4>
+                        <p>JNTUH | Expected 2028</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Diploma - Government Institute of Electronics</h4>
+                        <p>SBTET | 2025 | CGPA: 9.8</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>High School - St. Patrick's High School</h4>
+                        <p>ICSE | 2022 | 91%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Computer Fundamentals</h3>
+                    <p>Computer Architecture & Organization, Operating Systems, Cyber & Network Security</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <p>C,  C++,  Java,  C#,  .NET, Python</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, PHP, XML</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>SQL, NoSQL, PL/SQL, Relational & Distributed Databases</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Core CS Concepts</h3>
+                    <p>Data Structures & Algorithms, Cloud Computing, Big Data & Hadoop</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Computing</h3>
+                    <p>AWS, GCP, Azure, Virtualization</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Facial Attendance System</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Built a facial recognition system that detects and identifies faces using OpenCV and compares them against a stored dataset in AWS S3 for verification.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">AWS S3</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="[REPO_LINK_PLACEHOLDER]" class="project-btn btn-repo">Visit Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Remote Desktop Controller</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Developed a web-based application to control desktop environments remotely and for data transmission in real-time using peer-to-peer communication.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WebRTC</span>
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">NodeJS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="[REPO_LINK_PLACEHOLDER]" class="project-btn btn-repo">Visit Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Mock Interview Analysis</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Created a system that records mock interview sessions and uses Google APIs to analyze user responses, tone, and facial expressions.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Google Cloud Vision</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="[REPO_LINK_PLACEHOLDER]" class="project-btn btn-repo">Visit Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3 style="color: #00bbb5;">VISWAM.ai - Open-source Company</h3>
+                        <p>Working on NLP, Transformer Architectures, AI Model Training & Fine-tuning, and Dataset Curation for Indic Languages</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">May 2024 - Nov 2025</div>
+                    <div class="timeline-content">
+                        <h3 style="color: #00bbb5;">SV Global Services Pvt. Ltd.</h3>
+                        <p>Gained expertise in DevOps, Cybersecurity, and Amazon Web Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <h4>Crash Course on Python</h4>
+                    <p>Google</p>
+                    <a href="https://www.coursera.org/account/accomplishments/records/ZJ104QQDEUV6" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>HTML, JavaScript and Bootstrap</h4>
+                    <p>Udemy</p>
+                    <a href="https://ude.my/UC-52de06c7-9243-4102-8bfa-e613b5cc22a5" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Understanding Basics of SQL</h4>
+                    <p>Coursera</p>
+                    <a href="https://coursera.org/verify/8JTPB8ELTCRS" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Foundations of Cybersecurity</h4>
+                    <p>Google</p>
+                    <a href="https://www.coursera.org/account/accomplishments/records/MSJ49W4CH8NH" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Google Cloud Big Data and ML Fundamentals</h4>
+                    <p>Google Cloud</p>
+                    <a href="https://coursera.org/share/34ab6c65e6ce3587bae9223acf9d387e" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Cloud Bootcamp</h4>
+                    <p>GeekforGeeks</p>
+                    <a href="https://media.geeksforgeeks.org/courses/certificates/325a7d177a7b69a3dfe2ed69f240265b.pdf" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>DSA with Java</h4>
+                    <p>LetsUpgrade</p>
+                    <a href="https://verify.letsupgrade.in/certificate/LUEDSAMAY125900" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Prompt Design with Vertex AI</h4>
+                    <p>Google Cloud</p>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/141c2036-a032-4561-91bf-bf30d9907eed/badges/15804914" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Develop GenAI Apps with Gemini and Streamlit</h4>
+                    <p>Google Cloud</p>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/141c2036-a032-4561-91bf-bf30d9907eed/badges/15919322" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h4>Build Real World AI Applications with Gemini and Imagen</h4>
+                    <p>Google Cloud</p>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/141c2036-a032-4561-91bf-bf30d9907eed/badges/15830396/" target="_blank" class="cert-link">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/vinay-kumar-vangala/" target="_blank" class="social-link">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/VinayKumarVangala" target="_blank" class="social-link">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="mailto:vinaykumarvangala05@gmail.com" class="social-link">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h.98L12 10.09l9.384-6.269h.98c.904 0 1.636.732 1.636 1.636z"/>
+                                </svg>
+                                Gmail
+                            </a>
+                            <a href="https://x.com/vinaykumarv_" target="_blank" class="social-link">
+                                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                                    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+                                </svg>
+                                X (Twitter)
+                            </a>
+                        </div>
+                        <div class="contact-details">
+                            <p><strong>Phone:</strong> 8121007035</p>
+                            <p><strong>Location:</strong> Hyderabad, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vangala Vinay Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
